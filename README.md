@@ -169,3 +169,18 @@ NHOM5.API/
 ├── Helpers/
 ├── appsettings.json
 └── Program.cs
+
+
+Database_Tables/
+├── Users                      # Quản lý tài khoản và phân quyền (Admin, Chủ sân, Khách hàng)
+├── SportComplexes             # Quản lý thông tin các cụm sân bóng lớn
+├── Pitches                    # Quản lý danh sách sân con (sân 5, 7, 11) thuộc từng cụm
+├── PriceRules                 # Cấu hình bảng giá thay đổi theo khung giờ, ngày lễ, cuối tuần
+├── Bookings                   # Lưu thông tin đơn đặt sân tổng của khách hàng
+├── BookingDetails             # Lưu chi tiết ngày giờ từng ca đá (hỗ trợ đặt lịch cố định)
+├── PaymentTransactions        # Ghi nhận lịch sử giao dịch (thanh toán tiền cọc, hoàn tiền)
+├── ExtraServices              # Quản lý kho dịch vụ bán kèm (nước uống, áo bib, trọng tài)
+├── ServiceOrders              # Ghi lại số lượng dịch vụ khách đã mua/thuê trong mỗi ca đá
+├── Reviews                    # Đánh giá và chấm điểm chất lượng sân từ khách hàng
+└── MatchPosts                 # Các tin đăng tìm đội đá giao hữu (tính năng bắt đối)
+
