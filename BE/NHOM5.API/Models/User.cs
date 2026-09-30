@@ -16,6 +16,9 @@ namespace NHOM5.API.Models
         [MaxLength(100)]
         public string Email { get; set; }
 
+        [MaxLength(500)]
+        public string AvatarUrl { get; set; }
+
         [Required]
         public string PasswordHash { get; set; }
 
@@ -23,5 +26,6 @@ namespace NHOM5.API.Models
         public string Role { get; set; } // Sẽ lưu: "Admin", "Owner", "Staff", "Customer"
 
         public bool IsActive { get; set; } = true; // Để admin khóa/mở tài khoản
+
     }
 }

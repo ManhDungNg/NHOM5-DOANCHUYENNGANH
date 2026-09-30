@@ -21,6 +21,7 @@ namespace NHOM5.API.Data
         public DbSet<PaymentTransaction> PaymentTransactions { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<MatchPost> MatchPosts { get; set; }
+        public DbSet<SportComplexImage> SportComplexImages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
