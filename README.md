@@ -174,6 +174,7 @@ NHOM5.API/
 Database_Tables/
 ├── Users                      # Quản lý tài khoản và phân quyền (Admin, Chủ sân, Khách hàng)
 ├── SportComplexes             # Quản lý thông tin các cụm sân bóng lớn
+├── SportComplexImages         # Lưu album ảnh chi tiết cho từng cụm sân (mặt cỏ, khán đài, chỗ để xe...)
 ├── Pitches                    # Quản lý danh sách sân con (sân 5, 7, 11) thuộc từng cụm
 ├── PriceRules                 # Cấu hình bảng giá thay đổi theo khung giờ, ngày lễ, cuối tuần
 ├── Bookings                   # Lưu thông tin đơn đặt sân tổng của khách hàng
@@ -183,4 +184,3 @@ Database_Tables/
 ├── ServiceOrders              # Ghi lại số lượng dịch vụ khách đã mua/thuê trong mỗi ca đá
 ├── Reviews                    # Đánh giá và chấm điểm chất lượng sân từ khách hàng
 └── MatchPosts                 # Các tin đăng tìm đội đá giao hữu (tính năng bắt đối)
-
