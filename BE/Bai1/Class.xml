@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Class.xsd">
+
+	<student>
+		<sid>S1234</sid>
+		<name>Nguyen Van A</name>
+		<dob>2002-05-15</dob>
+		<mark>8.5</mark>
+	</student>
+
+	<student>
+		<sid>S2023602</sid>
+		<name>Tran Thi B</name>
+		<dob>2003-11-20</dob>
+		<mark>9.0</mark>
+	</student>
+
+</class>
